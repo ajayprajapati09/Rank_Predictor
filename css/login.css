@@ -1,1 +1,87 @@
 
+.logcon1{
+    width: 450px;
+    margin: auto;
+}
+
+form {border: 3px solid #f1f1f1;}
+
+.logcontainer1 input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.logcon1 input[type=number],input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.logcon1 button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.logcon1 button:hover {
+  opacity: 0.8;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+.logcon1 img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.logcontainer1 {
+  padding: 16px;
+}
+
+.logcontainer2 button {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  /* margin-left: 125px; */
+  float: right;
+  width: 100px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 100px) {
+  .logcontainer2 span.psw {
+     display: block;
+     float: none;
+  }
+}
+.logcontainer1 input[type=button] {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin-left: 125px;
+  width: 40%;
+}
+
