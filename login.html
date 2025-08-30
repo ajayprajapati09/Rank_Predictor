@@ -1,0 +1,55 @@
+<html>
+    <head>  
+        <link rel="stylesheet" href="css/login.css">
+        
+    </head>
+    <body>
+        <div class="logcon1">
+            <h2 align="center">Login Form</h2>
+
+        <form action="login2.php" method="post">
+            <div class="imgcontainer">
+                <img src="images/img_avatar2.png" alt="Avatar" class="avatar">
+            </div>
+
+            <div class="logcontainer1">
+                <label for="uname"><b>Mobile Number</b></label>
+                <input type="text" id="mobile_number" placeholder="Enter mobile no" name="mob" required><br>
+                <!-- <input type="button" value="Send OTP" href="https://2factor.in/API/V1/{14127bc3-09f4-11ee-addf-0200cd936042}/SMS/+91{user's_phone_no}/AUTOGEN"> -->
+                <!-- <button type="submit" formaction="https://2factor.in/API/V1/{14127bc3-09f4-11ee-addf-0200cd936042}/SMS/+91{user's_phone_no}/AUTOGEN" >Send OTP</button> -->
+                <br>
+                <label for="psw"><b>Enter OTP</b></label><br>
+                <input type="number" id="otp" placeholder="Enter OTP" name="otp" required>
+                <!-- <script>
+                    const api_key="14127bc3-09f4-11ee-addf-0200cd936042";
+                    function sendOTP(){
+                        let mobilenumber = document.getElementById("mobile_number").value;
+                        let url="https://2factor.in/API/V1/{14127bc3-09f4-11ee-addf-0200cd936042}/SMS/+91{user's_phone_no}/AUTOGEN";
+
+                        fetch (url)
+                        .then((res) =>{
+                            res.json();
+                        })
+                        .then((data) =>{
+                            login.html(data);
+                        });       
+                    }
+
+                    
+                </script> -->
+        
+        
+                <button type="submit">Login</button>
+            
+            </div>
+
+            <div class="logcontainer2" style="background-color:#f1f1f1">
+                <span class="psw"><a href="#">Resend OTP</a></span>
+            </div>
+        </form>
+        </div>
+
+        
+
+    </body>
+</html>
